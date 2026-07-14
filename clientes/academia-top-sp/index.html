@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clínica Sorriso - Odontologia em São Paulo</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap');
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Inter',system-ui,sans-serif;background:#0c0f1a;color:#1a1a2e;line-height:1.6;overflow-x:hidden}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff;background:linear-gradient(135deg,#0c0f1a 0%,#16213e 50%,#0f3460 100%);padding:60px 20px}
+.hero h1{font-family:'Playfair Display',serif;font-size:3.5rem;margin-bottom:20px;line-height:1.2}
+.hero p{font-size:1.3rem;color:#a0aabf;margin-bottom:40px}
+.cta{display:inline-block;padding:18px 50px;background:#22d3ee;color:#0c0f1a;font-weight:700;text-decoration:none;border-radius:10px;font-size:1.1rem;transition:transform .2s,box-shadow .2s}
+.cta:hover{transform:translateY(-3px);box-shadow:0 10px 40px rgba(34,211,238,.4)}
+.stats{display:flex;gap:40px;justify-content:center;margin-top:60px;flex-wrap:wrap}
+.stat{text-align:center}
+.stat .num{font-size:2.5rem;font-weight:700;color:#22d3ee}
+.stat .label{font-size:.9rem;color:#a0aabf}
+.section{padding:80px 20px;max-width:1200px;margin:0 auto}
+.section h2{font-family:'Playfair Display',serif;font-size:2.5rem;margin-bottom:50px;text-align:center;color:#0c0f1a}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:30px}
+.card{background:#fff;border-radius:16px;padding:40px 30px;box-shadow:0 4px 30px rgba(0,0,0,.08);text-align:center;transition:transform .2s}
+.card:hover{transform:translateY(-5px)}
+.card .icon{font-size:3rem;margin-bottom:20px}
+.card h3{font-size:1.4rem;margin-bottom:15px;color:#0c0f1a}
+.card p{color:#555;font-size:1rem}
+.about{background:#f8f9fa;padding:80px 20px}
+.about-inner{max-width:800px;margin:0 auto;text-align:center}
+.about h2{font-family:'Playfair Display',serif;font-size:2.5rem;margin-bottom:30px}
+.about p{font-size:1.15rem;color:#555;margin-bottom:20px}
+.contact{padding:80px 20px;text-align:center}
+.contact h2{font-family:'Playfair Display',serif;font-size:2.5rem;margin-bottom:50px}
+.contact-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:30px;max-width:1000px;margin:0 auto}
+.contact-card{padding:30px;border:1px solid #e0e0e0;border-radius:12px}
+.contact-card .label{font-size:.85rem;color:#999;margin-bottom:5px}
+.contact-card .value{font-size:1.1rem;font-weight:600;color:#0c0f1a}
+footer{background:#0c0f1a;color:#666;text-align:center;padding:40px 20px}
+@media(max-width:768px){.hero h1{font-size:2.2rem}.hero p{font-size:1.1rem}.section h2{font-size:1.8rem}}
+</style>
+</head>
+<body>
+<section class="hero">
+<div>
+<h1>Seu sorriso<br>merece o melhor</h1>
+<p>Odontologia de excelência em São Paulo há 15 anos</p>
+<a href="https://wa.me/5511999999999" class="cta">Agendar avaliação</a>
+<div class="stats">
+<div class="stat"><div class="num">4.8★</div><div class="label">Google (127 avaliações)</div></div>
+<div class="stat"><div class="num">15+</div><div class="label">anos</div></div>
+<div class="stat"><div class="num">5000+</div><div class="label">pacientes</div></div>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>Nossos serviços</h2>
+<div class="cards">
+<div class="card"><div class="icon">😁</div><h3>Implantes</h3><p>Implantes dentários com tecnologia de ponta e garantia.</p></div>
+<div class="card"><div class="icon">✨</div><h3>Clareamento</h3><p>Clareamento dental seguro e eficaz em uma única sessão.</p></div>
+<div class="card"><div class="icon">🦷</div><h3>Ortodontia</h3><p>Aparelhos fixos e invisíveis para todos os casos.</p></div>
+<div class="card"><div class="icon">👶</div><h3>Odontopediatria</h3><p>Cuidado especializado para os pequenos em ambiente acolhedor.</p></div>
+</div>
+</section>
+
+<section class="about">
+<div class="about-inner">
+<h2>Sobre a Clínica Sorriso</h2>
+<p>Fundada em 2010, a Clínica Sorriso é referência em odontologia em São Paulo, com mais de 5.000 pacientes atendidos.</p>
+<p>Nossa equipe é formada por especialistas em cada área, garantindo que você receba o melhor tratamento possível.</p>
+</div>
+</section>
+
+<section class="contact">
+<h2>Contato</h2>
+<div class="contact-grid">
+<div class="contact-card"><div class="label">WhatsApp</div><div class="value">(11) 99999-9999</div></div>
+<div class="contact-card"><div class="label">E-mail</div><div class="value">contato@clinicasorriso.com.br</div></div>
+<div class="contact-card"><div class="label">Endereço</div><div class="value">Av. Paulista, 1000 - São Paulo</div></div>
+<div class="contact-card"><div class="label">Horário</div><div class="value">Seg-Sex: 8h às 18h</div></div>
+</div>
+</section>
+
+<footer>
+<p>© 2024 Clínica Sorriso - CRO/SP 12345</p>
+</footer>
+</body>
+</html>
